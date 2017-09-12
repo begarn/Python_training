@@ -5,4 +5,4 @@
 #
 list1 = [ "chaud", "froid", "tempéré", "glacial", "brûlant" ]
 with open('./temperature.txt', 'w') as fichier:
-    print(fichier.write('\n'.join(list1)))
+    print(fichier.write('\n'.join(list1)), end='\n')
